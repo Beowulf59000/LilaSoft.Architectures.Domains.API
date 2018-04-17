@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>LilaSoft.Architectures.Domains.API</RootNamespace>
+    <PackageId>LilaSoft.Architectures.Domains.API</PackageId>
+    <Authors>Johnny Behague</Authors>
+    <Company>LilaSoft</Company>
+    <Product>LilaSoft.Architectures.Domains.API</Product>
+    <Description>Le projet LilaSoft.Architectures.Domains.API est un fork du projet du repository eShopContainers afin de faciliter mes futurs développements. Comme tous mes forks issus de ce projet, ils sont issus à changement suivant l'évolution de mes besoins.</Description>
+    <PackageProjectUrl>https://github.com/Beowulf59000/LilaSoft.Architectures.Domains.API</PackageProjectUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageLicenseUrl>https://github.com/Beowulf59000/LilaSoft.Architectures.Domains.API/blob/master/LICENSE.md</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="7.5.2" />
+    <PackageReference Include="LilaSoft.Architectures.Domains.Domain" Version="1.0.0" />
+    <PackageReference Include="LilaSoft.Architectures.Domains.Infrastructure" Version="1.0.0" />
+    <PackageReference Include="LilaSoft.Patterns.EventBus.EntityFrameworkIntegrationEventLog" Version="1.0.0" />
+    <PackageReference Include="MediatR" Version="4.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="2.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="2.4.0" />
+  </ItemGroup>
+
+</Project>
